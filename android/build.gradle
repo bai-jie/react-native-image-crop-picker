@@ -22,5 +22,7 @@ android {
 dependencies {
     implementation 'com.facebook.react:react-native:+'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
-    implementation 'com.github.yalantis:ucrop:2.2.6-native'
+//    implementation 'com.github.yalantis:ucrop:2.2.6-native'
+    // with zh i18n
+    implementation 'com.github.bai-jie:uCrop:develop-SNAPSHOT'
 }
